@@ -1,0 +1,39 @@
+.AdGrid {
+    width: 22%;
+    margin: 1%;
+    height: 420px;
+    display: inline-block;
+    text-align: justify;
+    font-size: x-large;
+    
+    .Ad-content{
+
+        height: 85%;
+        background-color: white;
+
+        img{
+            
+
+            object-fit: cover; /* Do not scale the image */
+            object-position: center; /* Center the image within the element */
+            height: 60%;
+            width: 100%;
+        }
+
+        
+
+        .title {
+            text-align: start;
+            font-size: medium;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            line-height: 20px;    
+            height: 40px;     
+            -webkit-line-clamp: 2; /* Write the number of 
+                              lines you want to be 
+                              displayed */
+            -webkit-box-orient: vertical;
+          }
+    }
+}

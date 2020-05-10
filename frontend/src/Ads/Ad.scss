@@ -1,0 +1,44 @@
+.Ad {
+
+    background-color: lightpink;
+
+    .Ad-content{
+        background-color: white;
+        height: 200px;
+        margin-top: 20px;
+
+
+        img{
+            width: 20%;
+            height: 100%;
+            display: inline-block;
+            object-fit: cover; /* Do not scale the image */
+        }
+            
+
+        .left{
+            width: 50%;
+            margin-left: 3%;
+            height: 98%;
+            margin-top: 2%;
+            display: inline-block;
+            text-align: left;
+        }
+
+        .right{
+            width: 24%;
+            margin-right: 3%;
+            height: 98%;
+            margin-top: 2%;
+            display: inline-block;
+            text-align: right;
+
+            span{
+                font-size: large;
+            }
+        }
+
+    }
+
+
+}

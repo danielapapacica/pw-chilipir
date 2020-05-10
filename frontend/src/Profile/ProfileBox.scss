@@ -1,0 +1,29 @@
+
+.ProfileBox {
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 25%;
+    height: 1600px;
+  
+    .ProfileContent{
+      display: inline-block;
+      width: 30%;
+      margin-left: 10%;
+      margin-right: 5%;
+      text-align: left;
+  
+    }
+
+    .Disconect{
+      display: inline-block;
+      margin-left: 5%;
+      margin-right: 10%;
+      width: 20%;
+      height: 200px;
+      text-align: right;
+  
+    }
+  }

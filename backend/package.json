@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "start.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "file-system": "^2.2.2",
+    "helmet": "^3.22.0",
+    "internal": "^2.0.27",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.6",
+    "nodemon": "^2.0.2",
+    "react-images-upload": "^1.2.8",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Backend proiect idp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielapapacica/idp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielapapacica/idp/issues"
+  },
+  "homepage": "https://github.com/danielapapacica/idp#readme"
+}

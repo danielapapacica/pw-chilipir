@@ -1,0 +1,21 @@
+$color1:#d7188b69;
+$color2:#00C0B3;
+$color5:rgba(0, 192, 179, 0.507);
+
+.AccountMenu{
+
+    margin-top: 100px;
+    height: 50px;
+    background-color: $color5;
+    width: 40%;
+    margin-left:30%;
+    margin-right: 30%;
+
+    color:white;
+
+    a{
+        cursor: pointer;
+
+    }
+
+}

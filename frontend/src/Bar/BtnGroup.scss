@@ -1,0 +1,25 @@
+@import "../../node_modules/bootstrap/scss/mixins";
+
+$width: 500px;
+$color1:#d7188b;
+$color2:#00C0B3;
+
+
+.btn-group {
+  width: $width;
+
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: $color1 !important;
+  }
+
+  .btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+    background-color: $color2 !important;
+  }
+
+
+}
+
+
+
+
+ 

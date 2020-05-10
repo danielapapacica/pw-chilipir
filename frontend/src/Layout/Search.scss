@@ -1,0 +1,24 @@
+$color1:#d7188bb0;
+$color2:#00C0B3;
+
+
+.Search {
+    width: 1000px;
+    background-color: $color1;
+    margin-left: 100px;
+    
+    display: flex;
+    
+
+    .Search-content{
+        width: 1000px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+
+        .icon{
+            font-size: x-large;
+        }
+    }
+}

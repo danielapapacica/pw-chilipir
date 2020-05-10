@@ -1,0 +1,16 @@
+
+$color4:rgba(0, 192, 179, 0.507);
+
+.FilterSimple {
+
+  background-color: $color4;
+  text-align: left;
+  margin-left: 10px;
+  height: 240px;
+  width: 100%;
+
+  form{
+    line-height: 5;
+  }
+  
+}

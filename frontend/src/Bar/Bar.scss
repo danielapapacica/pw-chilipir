@@ -1,0 +1,19 @@
+.bar{
+  background-color: green;
+  text-align: center;
+  align-items: center;
+}
+
+
+$navbar-color: #00C0B3;
+.navbar {
+  background-color: $navbar-color!important;
+  color: white;
+ }
+
+
+
+$main-logo-size:60px;
+.main-logo{
+  height: $main-logo-size;
+}
